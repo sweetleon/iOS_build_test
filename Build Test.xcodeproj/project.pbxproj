@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490DBBB917597D3C001A0BC0 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490DBBB117597CC7001A0BC0 /* libMailCore-ios.a */; };
+		490DBBBC17597D54001A0BC0 /* TSTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 490DBBBB17597D54001A0BC0 /* TSTObject.m */; };
 		494D1519175908F20067C6C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D1518175908F20067C6C6 /* UIKit.framework */; };
 		494D151B175908F20067C6C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D151A175908F20067C6C6 /* Foundation.framework */; };
 		494D151D175908F20067C6C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D151C175908F20067C6C6 /* CoreGraphics.framework */; };
@@ -70,6 +72,8 @@
 
 /* Begin PBXFileReference section */
 		490DBBA617597CC6001A0BC0 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		490DBBBA17597D54001A0BC0 /* TSTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTObject.h; sourceTree = "<group>"; };
+		490DBBBB17597D54001A0BC0 /* TSTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTObject.m; sourceTree = "<group>"; };
 		494D1515175908F20067C6C6 /* Build Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494D1518175908F20067C6C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		494D151A175908F20067C6C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490DBBB917597D3C001A0BC0 /* libMailCore-ios.a in Frameworks */,
 				494D1519175908F20067C6C6 /* UIKit.framework in Frameworks */,
 				494D151B175908F20067C6C6 /* Foundation.framework in Frameworks */,
 				494D151D175908F20067C6C6 /* CoreGraphics.framework in Frameworks */,
@@ -164,6 +169,8 @@
 				494D1527175908F20067C6C6 /* AppDelegate.h */,
 				494D1528175908F20067C6C6 /* AppDelegate.m */,
 				494D151F175908F20067C6C6 /* Supporting Files */,
+				490DBBBA17597D54001A0BC0 /* TSTObject.h */,
+				490DBBBB17597D54001A0BC0 /* TSTObject.m */,
 			);
 			path = "Build Test";
 			sourceTree = "<group>";
@@ -356,6 +363,7 @@
 			files = (
 				494D1525175908F20067C6C6 /* main.m in Sources */,
 				494D1529175908F20067C6C6 /* AppDelegate.m in Sources */,
+				490DBBBC17597D54001A0BC0 /* TSTObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +468,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "mailcore2/**";
 				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -471,6 +480,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "mailcore2/**";
 				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
