@@ -1,0 +1,3 @@
+[submodule "mailcore2"]
+	path = mailcore2
+	url = git@github.com:sweetleon/mailcore2.git
