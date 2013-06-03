@@ -468,7 +468,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/mailcore2/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/mailcore2\"/**";
 				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -480,7 +480,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/mailcore2/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/mailcore2\"/**";
 				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
