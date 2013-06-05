@@ -68,6 +68,13 @@
 			remoteGlobalIDString = 494D1514175908F20067C6C6;
 			remoteInfo = "Build Test";
 		};
+		49E73C8D175FBFC5006C0D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490DBBA617597CC6001A0BC0 /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -224,6 +231,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				49E73C8E175FBFC5006C0D2E /* PBXTargetDependency */,
 			);
 			name = Build_Test;
 			productName = "Build Test";
@@ -384,6 +392,11 @@
 			isa = PBXTargetDependency;
 			target = 494D1514175908F20067C6C6 /* Build_Test */;
 			targetProxy = 494D153A175908F20067C6C6 /* PBXContainerItemProxy */;
+		};
+		49E73C8E175FBFC5006C0D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = 49E73C8D175FBFC5006C0D2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
