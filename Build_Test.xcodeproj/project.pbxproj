@@ -74,22 +74,22 @@
 		490DBBA617597CC6001A0BC0 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 		490DBBBA17597D54001A0BC0 /* TSTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTObject.h; sourceTree = "<group>"; };
 		490DBBBB17597D54001A0BC0 /* TSTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTObject.m; sourceTree = "<group>"; };
-		494D1515175908F20067C6C6 /* Build Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494D1515175908F20067C6C6 /* Build_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Build_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494D1518175908F20067C6C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		494D151A175908F20067C6C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		494D151C175908F20067C6C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		494D1520175908F20067C6C6 /* Build Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Build Test-Info.plist"; sourceTree = "<group>"; };
+		494D1520175908F20067C6C6 /* Build_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Build_Test-Info.plist"; sourceTree = "<group>"; };
 		494D1522175908F20067C6C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		494D1524175908F20067C6C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		494D1526175908F20067C6C6 /* Build Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Build Test-Prefix.pch"; sourceTree = "<group>"; };
+		494D1526175908F20067C6C6 /* Build_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Build_Test-Prefix.pch"; sourceTree = "<group>"; };
 		494D1527175908F20067C6C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		494D1528175908F20067C6C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		494D152A175908F20067C6C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		494D152C175908F20067C6C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		494D152E175908F20067C6C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		494D1535175908F20067C6C6 /* Build TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Build TestTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494D1535175908F20067C6C6 /* Build_TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Build_TestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494D1536175908F20067C6C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		494D153E175908F20067C6C6 /* Build TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Build TestTests-Info.plist"; sourceTree = "<group>"; };
+		494D153E175908F20067C6C6 /* Build_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Build_TestTests-Info.plist"; sourceTree = "<group>"; };
 		494D1540175908F20067C6C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		494D1542175908F20067C6C6 /* Build_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Build_TestTests.h; sourceTree = "<group>"; };
 		494D1543175908F20067C6C6 /* Build_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Build_TestTests.m; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				490DBBA617597CC6001A0BC0 /* mailcore2.xcodeproj */,
-				494D151E175908F20067C6C6 /* Build Test */,
-				494D153C175908F20067C6C6 /* Build TestTests */,
+				494D151E175908F20067C6C6 /* Build_Test */,
+				494D153C175908F20067C6C6 /* Build_TestTests */,
 				494D1517175908F20067C6C6 /* Frameworks */,
 				494D1516175908F20067C6C6 /* Products */,
 			);
@@ -146,8 +146,8 @@
 		494D1516175908F20067C6C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				494D1515175908F20067C6C6 /* Build Test.app */,
-				494D1535175908F20067C6C6 /* Build TestTests.octest */,
+				494D1515175908F20067C6C6 /* Build_Test.app */,
+				494D1535175908F20067C6C6 /* Build_TestTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		494D151E175908F20067C6C6 /* Build Test */ = {
+		494D151E175908F20067C6C6 /* Build_Test */ = {
 			isa = PBXGroup;
 			children = (
 				494D1527175908F20067C6C6 /* AppDelegate.h */,
@@ -172,16 +172,17 @@
 				490DBBBA17597D54001A0BC0 /* TSTObject.h */,
 				490DBBBB17597D54001A0BC0 /* TSTObject.m */,
 			);
+			name = Build_Test;
 			path = "Build Test";
 			sourceTree = "<group>";
 		};
 		494D151F175908F20067C6C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				494D1520175908F20067C6C6 /* Build Test-Info.plist */,
+				494D1520175908F20067C6C6 /* Build_Test-Info.plist */,
 				494D1521175908F20067C6C6 /* InfoPlist.strings */,
 				494D1524175908F20067C6C6 /* main.m */,
-				494D1526175908F20067C6C6 /* Build Test-Prefix.pch */,
+				494D1526175908F20067C6C6 /* Build_Test-Prefix.pch */,
 				494D152A175908F20067C6C6 /* Default.png */,
 				494D152C175908F20067C6C6 /* Default@2x.png */,
 				494D152E175908F20067C6C6 /* Default-568h@2x.png */,
@@ -189,20 +190,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		494D153C175908F20067C6C6 /* Build TestTests */ = {
+		494D153C175908F20067C6C6 /* Build_TestTests */ = {
 			isa = PBXGroup;
 			children = (
 				494D1542175908F20067C6C6 /* Build_TestTests.h */,
 				494D1543175908F20067C6C6 /* Build_TestTests.m */,
 				494D153D175908F20067C6C6 /* Supporting Files */,
 			);
+			name = Build_TestTests;
 			path = "Build TestTests";
 			sourceTree = "<group>";
 		};
 		494D153D175908F20067C6C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				494D153E175908F20067C6C6 /* Build TestTests-Info.plist */,
+				494D153E175908F20067C6C6 /* Build_TestTests-Info.plist */,
 				494D153F175908F20067C6C6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -211,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		494D1514175908F20067C6C6 /* Build Test */ = {
+		494D1514175908F20067C6C6 /* Build_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 494D1547175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build Test" */;
+			buildConfigurationList = 494D1547175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build_Test" */;
 			buildPhases = (
 				494D1511175908F20067C6C6 /* Sources */,
 				494D1512175908F20067C6C6 /* Frameworks */,
@@ -223,14 +225,14 @@
 			);
 			dependencies = (
 			);
-			name = "Build Test";
+			name = Build_Test;
 			productName = "Build Test";
-			productReference = 494D1515175908F20067C6C6 /* Build Test.app */;
+			productReference = 494D1515175908F20067C6C6 /* Build_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		494D1534175908F20067C6C6 /* Build TestTests */ = {
+		494D1534175908F20067C6C6 /* Build_TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 494D154A175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build TestTests" */;
+			buildConfigurationList = 494D154A175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build_TestTests" */;
 			buildPhases = (
 				494D1530175908F20067C6C6 /* Sources */,
 				494D1531175908F20067C6C6 /* Frameworks */,
@@ -242,9 +244,9 @@
 			dependencies = (
 				494D153B175908F20067C6C6 /* PBXTargetDependency */,
 			);
-			name = "Build TestTests";
+			name = Build_TestTests;
 			productName = "Build TestTests";
-			productReference = 494D1535175908F20067C6C6 /* Build TestTests.octest */;
+			productReference = 494D1535175908F20067C6C6 /* Build_TestTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +258,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = HH;
 			};
-			buildConfigurationList = 494D1510175908F20067C6C6 /* Build configuration list for PBXProject "Build Test" */;
+			buildConfigurationList = 494D1510175908F20067C6C6 /* Build configuration list for PBXProject "Build_Test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -274,8 +276,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				494D1514175908F20067C6C6 /* Build Test */,
-				494D1534175908F20067C6C6 /* Build TestTests */,
+				494D1514175908F20067C6C6 /* Build_Test */,
+				494D1534175908F20067C6C6 /* Build_TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,7 +382,7 @@
 /* Begin PBXTargetDependency section */
 		494D153B175908F20067C6C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 494D1514175908F20067C6C6 /* Build Test */;
+			target = 494D1514175908F20067C6C6 /* Build_Test */;
 			targetProxy = 494D153A175908F20067C6C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,10 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
+				GCC_PREFIX_HEADER = "Build Test/Build_Test-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/mailcore2\"/**";
-				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Build Test/Build_Test-Info.plist";
+				PRODUCT_NAME = Build_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -479,10 +481,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
+				GCC_PREFIX_HEADER = "Build Test/Build_Test-Prefix.pch";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/mailcore2\"/**";
-				INFOPLIST_FILE = "Build Test/Build Test-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Build Test/Build_Test-Info.plist";
+				PRODUCT_NAME = Build_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -497,8 +499,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
-				INFOPLIST_FILE = "Build TestTests/Build TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Build TestTests/Build_TestTests-Info.plist";
+				PRODUCT_NAME = Build_TestTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -514,8 +516,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build Test/Build Test-Prefix.pch";
-				INFOPLIST_FILE = "Build TestTests/Build TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Build TestTests/Build_TestTests-Info.plist";
+				PRODUCT_NAME = Build_TestTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -524,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		494D1510175908F20067C6C6 /* Build configuration list for PBXProject "Build Test" */ = {
+		494D1510175908F20067C6C6 /* Build configuration list for PBXProject "Build_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				494D1545175908F20067C6C6 /* Debug */,
@@ -533,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		494D1547175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build Test" */ = {
+		494D1547175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				494D1548175908F20067C6C6 /* Debug */,
@@ -542,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		494D154A175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build TestTests" */ = {
+		494D154A175908F20067C6C6 /* Build configuration list for PBXNativeTarget "Build_TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				494D154B175908F20067C6C6 /* Debug */,
